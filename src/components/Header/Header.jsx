@@ -16,4 +16,5 @@ function Header(props) {
   );
 }
 
+// export this component to the parent component App
 export default Header;

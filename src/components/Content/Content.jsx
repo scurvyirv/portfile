@@ -1,3 +1,4 @@
+// import pages that are child components to Content defined by state
 import AboutMe from "../../pages/AboutMe/AboutMe";
 import Contact from "../../pages/Contact/Contact";
 import Projects from "../../pages/Projects/Projects";
