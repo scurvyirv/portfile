@@ -1,6 +1,9 @@
 // App is the central react page that contains the three components, header, footer, and content of our page
 import "./App.css";
 
+// react router sets URLs depending on nav click
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 // Header defines the top area that includes the nav bar
 import Header from "./components/Header/Header";
 

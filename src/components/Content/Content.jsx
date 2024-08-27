@@ -2,6 +2,7 @@
 import AboutMe from "../../pages/AboutMe/AboutMe";
 import Contact from "../../pages/Contact/Contact";
 import Projects from "../../pages/Projects/Projects";
+import Resume from "../../pages/Resume/Resume";
 
 //this component includes the middle part of the page
 function Content(props) {
@@ -11,8 +12,10 @@ function Content(props) {
       return <AboutMe />; //custom HTML component
     } else if (props.currentPage === "Contact") {
       return <Contact />;
-    } else {
+    } else if (props.currentPage === "Projects") {
       return <Projects />;
+    } else {
+      return <Resume />;
     }
   }
 
