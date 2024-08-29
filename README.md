@@ -61,7 +61,7 @@ Here is quick look at the projects component of this application.
 
 ## Links
 
-- Deployed Webpage: (NEED) pending
+- Deployed Webpage: https://teal-longma-3f68b3.netlify.app/
 - GitHub Repo Page: https://github.com/scurvyirv/portfile
 
 ## Credits
