@@ -1,8 +1,17 @@
+import React from "react";
+import "./Resume.css";
+
 // resume component
 function Resume() {
   return (
     <section>
-      <ul>
+      <h3 className="resumeText">
+        Feel free to download my resume by clicking this PDF!{" "}
+        <a href="/images/sampleResume.pdf" download="sample resume">
+          Download Resume
+        </a>
+      </h3>
+      <ul className="resumeSkills">
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>

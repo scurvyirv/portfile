@@ -8,20 +8,22 @@ import "./App.css";
 import Header from "./components/Header/Header";
 
 // Content is the middle area that will dynamically render depending on the state; default is AboutMe
-import Content from "./components/Content/Content";
+// import Content from "./components/Content/Content";
 
 // Footer is the bottom area of the page
 import Footer from "./components/Footer/Footer";
 import { useState } from "react";
 
+// outlet determines which component displays in content section
+import { Outlet } from "react-router-dom";
+
 function App() {
   // defines state and uses function setCurrentPage
-  const [currentPage, setCurrentPage] = useState("AboutMe");
-
   return (
     <>
-      <Header setCurrentPage={setCurrentPage} />
-      <Content currentPage={currentPage} />
+      <Header />
+      <Outlet />
+      {/* <Content currentPage={currentPage} /> */}
       <Footer />
     </>
   );

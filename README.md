@@ -51,8 +51,8 @@ Portfile is a single-page application that uses React to display user biography,
 - WHEN I enter information on the contact page, THEN I am alerted when incomplete fields are left or when invalid emails are provided; otherwise, I am notified that message is sent
 - WHEN I click 'projects' on the nav bar, THEN I see the middle section populated with projects that are responsive upon hover
 - WHEN I click a project, THEN I am directed to the project page on click
-- WHEN I click 'resume' on the nav bar, THEN I see the middle section populated with the web developer's skill set and an option to download their resume (NEED)
-- WHEN I click on the responsive links on the nav bar, THEN I see the URL change with respect to the content that renders (NEED)
+- WHEN I click 'resume' on the nav bar, THEN I see the middle section populated with the web developer's skill set and an option to download their resume
+- WHEN I click on the responsive links on the nav bar, THEN I see the URL change with respect to the content that renders
 
 ## Usage
 
