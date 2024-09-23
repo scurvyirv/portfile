@@ -6,10 +6,17 @@ function Resume() {
   return (
     <section>
       <h3 className="resumeText">
-        Feel free to download my resume by clicking this PDF!{" "}
-        <a href="/images/sampleResume.pdf" download="sample resume">
-          Download Resume
-        </a>
+        <p>
+          Below are some skills and programs I've integrated into my practices
+          from my coding bootcamp.{" "}
+        </p>
+        <p>
+          Feel free to download my resume by clicking the "Irv's resume"
+          hyperlink{" "}
+          <a href="/images/CSres.pdf" download="irv's resume">
+            Irv's Resume
+          </a>
+        </p>
       </h3>
       <ul className="resumeSkills">
         <li>HTML</li>

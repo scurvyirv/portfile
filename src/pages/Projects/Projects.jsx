@@ -57,6 +57,18 @@ function Projects() {
         <h3 className="projectName">Javascript Blog Generator</h3>
       </article>
       <article className="projectContainer">
+        <a href="https://funkoswap.onrender.com">
+          <img
+            src="/images/SSreactFunko.png"
+            alt="preview of Funko React app"
+            className="images"
+          ></img>
+        </a>
+        <h3 className="projectName">
+          React Full Stack E-Commerce + Social Media
+        </h3>
+      </article>
+      <article className="projectContainer">
         <a href="https://scurvyirv.github.io/identity/">
           <img
             src="/images/SSthirdparty.png"
